@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Roaming Stylist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <nav class="main-nav">
+        <div class="logo">
+            <a href="index.html">The Roaming Stylist</a> 
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1>THREADS OF TOMORROW</h1>
+            <p>"Style is a way to say who you are without having to speak."</p>
+        </div>
+    </header>
+
+    <section id="introduction" class="section-padding">
+        <h2>✨ The Art of Personal Style</h2>
+        <div class="intro-box">
+            <p><strong>Meet Wazid Shaikh: Weaving Stories into Fabric</strong></p>
+            <p>Fashion, to me, is not just clothing—it's the highest form of self-expression. I believe true style begins with confidence. With Three years of expertise, I specialize in curating unique, timeless, and sustainable wardrobes that reflect your authentic personality and lifestyle. Let's embark on a journey to transform your vision into wearable art.</p>
+        </div>
+    </section>
+
+    <section id="services" class="section-padding">
+        <h2>🌟 Our Signature Services</h2>
+        <div class="services-container">
+            
+            <div class="service-card">
+                <div class="service-image-placeholder">
+                    <img src="Photos/fashion.jpeg" alt="Fashion Consulting">
+                </div>
+                <h3>Fashion Consulting</h3>
+                <p>A deep-dive session to define your personal style goals and create a custom style roadmap.</p>
+                <a href="fashion-consulting.html" class="cta-button">Explore Service &rarr;</a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-image-placeholder">
+                    <img src="Photos/closet.jpeg" alt="Closet Edit">
+                </div>
+                <h3>Closet Edit</h3>
+                <p>We declutter, organize, and optimize your current wardrobe, identifying gaps and new potential outfits.</p>
+                <a href="closet-edit.html" class="cta-button">Explore Service &rarr;</a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-image-placeholder">
+                    <img src="Photos/personal.jpeg" alt="Personal Shopping">
+                </div>
+                <h3>Personal Shopping</h3>
+                <p>Expert sourcing of garments and accessories tailored to your fit, style, and specific event needs.</p>
+                <a href="personal-shopping.html" class="cta-button">Explore Service &rarr;</a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-image-placeholder">
+                    <img src="Photos/styling.jpeg" alt="Personal Styling">
+                </div>
+                <h3>Personal Styling</h3>
+                <p>Full outfit curation for daily wear or special occasions, ensuring a flawless and memorable look.</p>
+                <a href="personal-styling.html" class="cta-button">Explore Service &rarr;</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+        <h2>🤝 Let's Connect</h2>
+        <div class="connect-layout">
+            
+            <div class="contact-form">
+                <h3>Book a Consultation</h3>
+                <form action="mailto:royshaikh27@gmail.com" method="POST" enctype="text/plain">
+                    <label for="service">Select Service</label>
+                    <select id="service" name="service" required>
+                        <option value="" disabled selected>--- Select Service ---</option>
+                        <option value="consulting">Fashion Consulting</option>
+                        <option value="closet">Closet Edit</option>
+                        <option value="shopping">Personal Shopping</option>
+                        <option value="styling">Personal Styling</option>
+                        <option value="general">General Inquiry</option>
+                    </select>
+
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+
+            <div class="contact-details">
+                <h3>Contact Us Directly</h3>
+                <p><i class="fab fa-whatsapp"></i> WhatsApp: <a href="tel:+91 9867683722">+91 9867683722</a></p>
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:royshaikh27@gmail.com">royshaikh27@gmail.com</a></p>
+                
+                
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.instagram.com/w4ustyle__" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/+919867683722" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/wazid-shaikh-7a315b284" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:royshaikh27@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>&copy; 2025 The Roaming Stylist. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
